@@ -1,0 +1,44 @@
+/* FONT FACE - font-display: fallback; */
+@font-face {
+    font-family: 'SF';
+    src: url('./fonts/SFMono-Regular.woff2') format('woff2'),
+        url('./fonts/SFMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'USAL';
+    src: url('./fonts/NewYorkExtraLarge-Bold.woff2') format('woff2'),
+        url('./fonts/NewYorkExtraLarge-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MD';
+    src: url('./fonts/MackayDEMO-Bold.woff2') format('woff2'),
+        url('./fonts/MackayDEMO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MD1';
+    src: url('./fonts/MackayDEMO-Regular.woff2') format('woff2'),
+        url('./fonts/MackayDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFM';
+    src: url('./fonts/SFMono-Medium.woff2') format('woff2'),
+        url('./fonts/SFMono-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
